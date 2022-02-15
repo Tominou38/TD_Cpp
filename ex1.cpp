@@ -1,21 +1,14 @@
 
 #include <iostream> 
-
 using namespace std; 
 
-
-
 class vecteur {
+    private : 
+        double * elements;
 
+        int dim ; 
 
-
- private : 
-
- double * elements;
-
- int dim ; 
-
- public : 
+        public : 
 
  vecteur(int dim1, double elements1){
 
@@ -44,7 +37,7 @@ class vecteur {
 };
 
 
-
+//test
 int main(){
 
  vecteur v1;
